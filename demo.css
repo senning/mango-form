@@ -1,0 +1,187 @@
+/**
+ * Fields
+ */
+.select{
+  font-size: 1em;
+  line-height: 3em;
+  height: 3em;
+  width: 100%;
+  background: none;
+  border-radius: 5px;
+  border: 1px solid #666;
+  padding: 10px;
+}
+
+.select:focus,
+.select:active{
+  border-width: 2px;
+  border-color: royalblue;
+}
+
+.select:valid{
+  border-width: 2px;
+  border-color: darkgreen;
+}
+
+.select:invalid{
+  border-color: crimson;
+}
+
+.select-labelText{
+  position: absolute;
+  line-height: 1;
+  padding: 0 0.5em;
+  top: -0.6em;
+  margin-left: .5em;
+  padding: 0 5px;
+  font-size: .8em;
+  background: #fff;
+  opacity: 1;
+}
+
+.city{
+  flex: 1 1;
+}
+
+.state{
+  flex: 0 0 5em;
+  margin-left: 1em;
+}
+
+
+/**
+ * Form steps
+ */
+
+.callToAction{
+  margin-top: -20px;
+}
+
+.has-steps .callToAction{
+  margin-top: 0;
+}
+
+.form-steps > fieldset > legend{
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  float: left;
+}
+
+.form-steps > fieldset > legend + *{
+  clear: both;
+}
+
+.has-steps .form-steps > fieldset > legend{
+  font-size: 10px;
+  line-height: 1;
+  position: relative;
+  top: -7px;
+  margin-top: 0;
+  margin-bottom: 6px;
+  color: #333;
+  text-align: left;
+  text-transform: uppercase;
+  float: none;
+  -webkit-margin-collapse: separate
+}
+
+.js-stepCounter{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  background: #eee;
+  display: none;
+}
+
+@media screen and (min-width: 500px){
+  .js-stepCounter{
+    border-radius: 0 10px 0 0;
+  }
+}
+
+.has-steps .js-stepCounter{
+  display: block;
+}
+
+.stepCount{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.stepCount:last-child{
+  margin-right: 0;
+}
+
+.stepCount.is-active{
+  background-image: url("raccoon.svg");
+  background-size: 100% 100%;
+  transform: scale(2);
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.stepCount.is-upcoming{
+  background-color: #999;
+}
+
+.stepCount.is-done{
+  background-color: #999;
+}
+
+/**
+ * Form meta options
+ */
+.has-animations{
+
+}
+
+.has-animations .text-label,
+.has-animations .text-labelText{
+  transition: 0.3s all;  
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  .has-animations .text-label,
+  .has-animations .text-labelText{
+    transition: none;  
+  }
+
+  .js-toggleAnimations{
+    display: none;
+  }  
+}
+
+/**
+ * Actions
+ */
+
+.form-prev{
+  display: inline-block;
+  border: 2px solid #666;
+  background: none;
+  color: #666;
+  text-shadow: none;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.form-next .is-submit{
+  display: none;
+}
+
+.is-submitStep .form-next .is-next{
+  display: none;
+}
+
+.is-submitStep .form-next .is-submit{
+  display: inline;
+}

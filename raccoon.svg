@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="20mm"
+   height="20mm"
+   viewBox="0 0 20 20">
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-277)">
+    <path
+       style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.29440874px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 0,289.74002 c 0,-1.37998 3.605948,-5.90917 3.605948,-5.90917 0,0 -1.7303301,-3.3626 -0.817844,-4.27509 0.6330627,-0.63307 4.7583641,1.44981 4.7583641,1.44981 0,0 1.184456,-0.78067 2.3052602,-0.78067 1.1158607,0 2.7133267,0.81785 2.7133267,0.81785 0,0 3.750745,-2.27156 4.460967,-1.56134 0.781554,0.78156 -0.669145,4.46097 -0.669145,4.46097 0,0 3.643123,4.8653 3.643123,5.79764 C 20,292.45785 12.231644,294.5 9.851301,294.5 7.1311883,294.5 0,292.34331 0,289.74002 Z"
+       id="path3780"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc" />
+  </g>
+</svg>
