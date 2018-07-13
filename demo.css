@@ -58,7 +58,7 @@
 }
 
 .has-steps .callToAction{
-  margin-top: 13px;
+  margin-top: 0;
 }
 
 .form-steps > fieldset > legend{

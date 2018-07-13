@@ -125,6 +125,7 @@ fieldset fieldset legend{
 
 .has-js.has-steps .form-steps > fieldset.is-active{
   display: block;
+  padding-top: 17px;
 }
 
 .form-next{
@@ -483,7 +484,7 @@ input:not(.is-new):invalid,
                 <select name="country" class="js-country select" required></select>
               </label>
             </p>
-            <fieldset class="form-row">
+            <div class="form-row">
               <p class="city">
                 <label class="text-label">
                   <span class="text-labelText">City</span>
@@ -496,7 +497,7 @@ input:not(.is-new):invalid,
                   <input type="text" class="text" name="region" required />
                 </label>
               </p>
-            </fieldset>
+            </div>
             <p class="form-postalcode">
               <label class="text-label">
                 <span class="text-labelText">Zip Code</span>
@@ -527,7 +528,7 @@ input:not(.is-new):invalid,
                 <input type="text" class="text" name="card-number" required />
               </label>
             </p>
-            <fieldset class="form-row" class="js-ccfield">
+            <div class="form-row" class="js-ccfield">
               <p class="expiry js-ccfield">
                 <label class="text-label is-alwaysLabelled">
                   <span class="text-labelText">Expiry</span>
@@ -540,7 +541,7 @@ input:not(.is-new):invalid,
                   <input type="text" class="text" name="cvv" required />
                 </label>
               </p>
-            </fieldset>
+            </div>
           </fieldset>
         </section>
         <aside role="presentation" class="js-stepCounter">
