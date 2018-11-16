@@ -15,7 +15,7 @@
 .select:focus,
 .select:active{
   border-width: 2px;
-  border-color: royalblue;
+  border-color: rgb(255,192,0);
 }
 
 .select:valid{
@@ -122,11 +122,12 @@
 }
 
 .stepCount.is-active{
-  background-image: url("raccoon.svg");
+  background-image: url("pencil.svg");
   background-size: 100% 100%;
   transform: scale(2);
   margin-left: 5px;
   margin-right: 10px;
+  border-radius: 0;
 }
 
 .stepCount.is-upcoming{
